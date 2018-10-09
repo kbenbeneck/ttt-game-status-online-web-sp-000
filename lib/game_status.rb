@@ -30,3 +30,12 @@ def won?(board)
   end
   return nil
 end
+
+def full?(array)
+  counter = 0
+  array.each do |element|
+    if (element == "X" || element == "O")
+      counter +=1
+    else
+    end
+  end
