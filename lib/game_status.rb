@@ -38,5 +38,10 @@ def full?(array)
       counter +=1
     else
     end
+    if counter == 9
+      return true
+    else
+      return false
+    end
   end
 end
