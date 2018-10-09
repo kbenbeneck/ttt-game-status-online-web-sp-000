@@ -45,3 +45,11 @@ def full?(array)
     end
   end
 end
+
+def draw?(array)
+  if full?(array) && !won?(array)
+    return true
+  else
+    return false
+  end
+end
