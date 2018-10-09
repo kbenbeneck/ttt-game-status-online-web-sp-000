@@ -35,16 +35,15 @@ def full?(array)
   counter = 0
   array.each do |element|
     if (element == "X" || element == "O")
-      counter +=1
+      counter += 1
     else
-
+    
     end
   end
-    if counter == 9
-      return true
-    else
-      return false
-    end
+  if counter == 9
+    return true
+  else
+    return false
   end
 end
 
