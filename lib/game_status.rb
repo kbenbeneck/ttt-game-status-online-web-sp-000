@@ -39,3 +39,4 @@ def full?(array)
     else
     end
   end
+end
